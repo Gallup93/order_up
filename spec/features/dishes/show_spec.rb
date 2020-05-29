@@ -11,11 +11,11 @@ RSpec.describe "dish show page" do
 
         visit "/dish/#{dish1.id}"
 
-        whithin ".dish-#{dish1.id}" do
-          expect(page).to have_content(chef1.name)
-          expect(page).to have_content(ingred1.name)
-          expect(page).to have_content(ingred2.name)
-        end
+        expect(page).to have_content(chef1.name)
+        expect(page).to have_content(dish1.name)
+        expect(page).to have_content(ingred1.name)
+        expect(page).to have_content(ingred2.name)
+
 
     end
   end
