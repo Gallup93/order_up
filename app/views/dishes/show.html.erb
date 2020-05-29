@@ -3,3 +3,5 @@
 <% @dish.ingredients.each do |ingred| %>
   <%= ingred.name %>
 <% end %>
+
+<h3>total calories: <%=@dish.total_calories(@dish.id) %></h3>

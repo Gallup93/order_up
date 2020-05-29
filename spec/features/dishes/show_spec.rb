@@ -15,8 +15,7 @@ RSpec.describe "dish show page" do
         expect(page).to have_content(dish1.name)
         expect(page).to have_content(ingred1.name)
         expect(page).to have_content(ingred2.name)
-
-
+        expect(page).to have_content("total calories: 655")
     end
   end
 end
