@@ -15,7 +15,7 @@ dish2 = chef1.dishes.create(name: "McFlurry", description: "The machine is broke
 dish3 = chef2.dishes.create(name: "Poptart Casserole", description: "World Famous")
 dish4 = chef2.dishes.create(name: "Snail Legs", description: "Hard to find")
 
-ingred1 = dish1.ingredients.create(name: "salt", calroies: "5")
-ingred2 = dish2.ingredients.create(name: "cream", calroies: "500")
-ingred3 = dish3.ingredients.create(name: "leg", calroies: "450")
-ingred4 = dish4.ingredients.create(name: "tart", calroies: "15")
+ingred1 = dish1.ingredients.create(name: "salt", calories: "5")
+ingred2 = dish2.ingredients.create(name: "cream", calories: "500")
+ingred3 = dish3.ingredients.create(name: "leg", calories: "450")
+ingred4 = dish4.ingredients.create(name: "tart", calories: "15")
